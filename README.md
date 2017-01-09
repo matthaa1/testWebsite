@@ -18,3 +18,6 @@ The Summer Intensive (SI) at All Star Code (ASC) focuses on web development (HTM
 
 # Submission
    Send your ASC contact a link to your github hosted website (free). If you have any questions regarding the assignment, submission, github, etc. please send inquiries to mahdi@allstarcode.org.
+
+### Here's an example
+https://shaddyjr.github.io/testWebsite/

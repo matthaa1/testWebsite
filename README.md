@@ -1,4 +1,7 @@
-!["ASC Logo"](http://www.allstarcode.org/wp-content/uploads/2016/06/ASClogo_598x99.jpg)  
+<p align="center">
+   <a href="http://allstarcode.org"><img src="http://www.allstarcode.org/wp-content/uploads/2016/06/ASClogo_598x99.jpg"></a>
+</p>  
+
 The Summer Intensive (SI) at All Star Code (ASC) focuses on web development (HTML/CSS/JS) as the main content of the curriculum. Accordingly, the instructional staff should be proficient in web development as well. However, candidates do NOT need to be full-stack web developers, nor do they need to know the entire curriculum before being hired.  
 
    When grouping instructional staff members, having only members proficient in front-end development would result in a deficient cohort. We want to avoid such instances, so please view the following technical test more like a placement exercise. There is no wrong answer. This project will also serve as a point of discussion during your interview, where we’ll discuss the choices you’ve made and your overall approach. 

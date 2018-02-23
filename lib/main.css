@@ -1,5 +1,3 @@
-
-
 body{
 	background-color: #006bb3;
 }
@@ -17,23 +15,24 @@ body{
 	padding: 0;
 	overflow: hidden; 
 	text-align: center;
+
 }
 
 .nav li {
 	display:inline;
-	border-right: 1px solid #fff;
+	border-left: 1px solid #fff; 
 	
 }
 
 .nav li:last-child{
-	border-right: none; 
+	border-right: 1px solid #fff;  
 }
 
 .nav li a {
 	display: inline-block; 
 	color: black; 
 	text-align: center; 
-	padding: 10px 65px ; 
+	padding: 20px 65px ; 
 	text-decoration: none; 
 	font-size: 1.25em; 
 	font-family: arial; 
@@ -47,6 +46,31 @@ body{
 
 .nav .active{
 	color: white; 
+}
+
+.profile {
+	width: 10%; 
+	height: 20%;
+	display: inline-block;
+	position: relative; 
+	top: 30%; 
+	left: 21%;
+}
+
+p {
+	color: black;
+	font-family: arial
+	padding: 20px, 60px; 
+	font-weight: bold;
+	font-size: 1em;
+	display: inline-block;
+	text-align: left; 
+	background-color: pink;
+	position: relative; 
+	width: 50%; 
+	height: 30%; 
+	left: 30%;
+
 }
 /* padding: top right bottom left ;
 add pixel padding to text */

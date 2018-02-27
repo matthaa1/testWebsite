@@ -97,24 +97,24 @@ body {
 /* Resume Elements */
 
 #profileRes{
-    float: right;
+    float: left;
     text-align: right; 
 }
 
 #RPcolumn0{
     float: left; 
-    width: 35%;
+    width: 28%;
     height: 100px; 
 }
 #RPcolumn1{
     float: left; 
-    width: 20%;
+    width: 32%;
 }
 
 #RPcolumn2{
     float: left; 
-    width: 25%;
-    padding: 30px 0px 0px 60px; 
+    width: 20%;
+    padding: 30px ; 
 }
 
 #RPcolumn3{

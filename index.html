@@ -11,18 +11,18 @@
 
 		<h2> 
 			<ul class = "nav">
-			  <li><a onclick = "location.href = '#about' "  class="active" href="#about">About Me</a></li>
-			  <li><a href="#resume">Resume</a></li>
-			  <li><a href="#projects">Projects</a></li>
-			  <li><a href="#contact">Contact</a></li>
+			  <li><a id = "aboutMeButton" onclick = showNewPage(this.id)  class="" >About Me</a></li>
+			  <li><a id = "resumeButton" onclick = showNewPage(this.id) class = "">Resume</a></li>
+			  <li><a id = "projectsButton" onclick = showNewPage(this.id) class = "">Projects</a></li>
+			  <li><a id = "contactButton" onclick = showNewPage(this.id) class = "">Contact</a></li>
 			</ul>
 		</h2>
 
-		<div class = "aboutPage" >
+		<div id = "aboutMePage">
 			<div class = "row"> 
-				<div class = "column0"></div>
-				<div class="column1">
-					<p class = "aboutBlurb"> 
+				<div id = "AMPcolumn0"  class = "column"></div>
+				<div id ="AMPcolumn1" class = "column">
+					<p id = "aboutBlurb"> 
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nisl lorem, porttitor quis nibh vitae, sodales tincidunt quam. Ut malesuada posuere mauris, id tincidunt neque scelerisque ac. Cras tincidunt nunc in sem facilisis, vel egestas eros fringilla. Nulla iaculis massa ut velit lobortis, ut venenatis nisl malesuada. Proin et lacus at felis interdum varius. Duis blandit a felis eu eleifend. In volutpat, urna non convallis dictum, tellus mi pharetra arcu, quis eleifend tellus augue et nisi. Integer a ipsum rutrum, dictum orci nec, vestibulum orci. Sed vitae elit aliquet, interdum magna vitae, placerat nulla. Mauris ligula lorem, dapibus ut rhoncus at, faucibus vel eros.
 					<br><br>
 
@@ -30,25 +30,104 @@
 					</p>
 					
 				</div>
-				<div class="column2">
-					<img class = "profile" src = "assets/animal3.jpg" alt = "About Me" 
+				<div id ="AMPcolumn2" class = "column">
+					<img id = "profilePic" src = "assets/animal3.jpg" alt = "About Me" 
 						width = "250" height = "300">
 					
 				</div>
-				<div class = "column3"></div>
+				<div id = "AMPcolumn3" class = "column"></div>
 
 			</div>
 		</div>
 
-		<div class = "resumePage" >
+		<div id = "resumePage" style = "display: none;">
+			<div class = "row"> 
+				<div id = "RPcolumn0" class = "column"></div>
+				<div id ="RPcolumn1" class = "column">
+					<ul id = "Education" class = "resumeText"> Education:
+						<li> School1 
+							<ul>
+								<li style = "font-size: .75em; "> GPA: 0.00 </li>
+							</ul>
+						</li>
+						<li>School2
+							<ul>
+								<li style = "font-size: .75em; "> GPA: 6.99 </li>
+							</ul>
+						</li>
+
+					</ul>
+
+					<ul id = "projectsResume" class = "resumeText"> Projects: 
+						<li>Project in Field1
+							<ul>
+								<li style = "font-size: .75em; "> short blurb </li>
+							</ul>
+						</li>
+						<li>Project in Field2
+							<ul>
+								<li style = "font-size: .75em; "> short blurb </li>
+							</ul>
+						</li>
+					</ul>
+					
+					<ul id = "languages" class = "resumeText"> Languages: 
+						<li> language1</li>
+						<li> language2</li>
+						<li> language3</li>
+						<li>language4</li>
+					</ul>
+
+					<ul id = "Systems and Tech" class = "resumeText"> Systems and Tech: 
+						<li> system 1</li>
+						<li> system 2</li>
+						<li> system 3</li>
+						<li> system 4</li>
+					</ul>
+
+				</div>
+				<div id ="RPcolumn2" class = "column">
+					<img id = "profileRes" src = "assets/animal3.jpg" alt = "About Me" width = "250" height = "300">
+				</div>
+				<div id = "RPcolumn3" class = "column"></div>
+
+			</div>
 		</div>
 
-		<div class = "projectPage">
+		<div id = "projectsPage" style = "display: none;">
+
+
+			<div id = "PPcolumn0" class = "column"></div>
+			<div id = "PPcolumn1" class = "column">
+
+				<h1 id = "project1Header" class = "projectsHeaders">Project in Field 1: 
+					<a href="https://www.github.com"> Github </a>
+				</h1>
+
+				
+					<p id = "project1Description" class = "projectsText">
+					Maecenas iaculis, felis sit amet condimentum condimentum, erat nunc tristique sapien, quis accumsan dui mi ut enim. Integer velit risus, ornare ut dolor nec, facilisis molestie neque. Mauris in elementum purus, at commodo nulla. Nullam malesuada volutpat neque nec pretium. Duis nunc dolor, bibendum id dui non, euismod maximus nibh. Morbi sit amet velit mattis, elementum lorem at, elementum eros. Nullam sodales massa at suscipit fermentum. Etiam lacus mi, tempor at tellus a, mollis facilisis mauris. Ut nisl orci, rutrum a sagittis id, pharetra quis neque. Integer sed ipsum vitae eros condimentum placerat quis vitae nisi. Aenean tristique tortor justo, et porta turpis facilisis ac. Cras elementum turpis at diam elementum pulvinar. Integer non sollicitudin est, eget fringilla leo. Fusce tristique sem congue ex aliquam, a tincidunt quam volutpat. 
+					</p>
+
+				<h1 id = "project2Header" class = "projectsHeaders"> Project in Field 2: <a href="https://www.github.com"> Github </a> </h1>
+
+					<p id = "project2Description" class = "projectsText">
+					
+					Fusce sollicitudin ac dui vitae vestibulum. Fusce congue lobortis felis, sed vulputate orci pulvinar in. Donec consequat ultrices ornare. Nulla non gravida arcu, sit amet placerat massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed mattis iaculis finibus. Vivamus in purus a felis auctor elementum vel vel felis. Mauris condimentum pulvinar tellus in sollicitudin. Aliquam nisl arcu, tempus eget ante id, vulputate euismod leo. Suspendisse eget magna libero. Etiam ornare pellentesque magna, eget vulputate erat bibendum nec. 
+
+					</p>
+
+				
+
+				</div>
+
+			<div id = "PPcolumn2" class = "column"></div>
 		</div>
 
-		<div class = "contactPage" >
+		<div id = "contactPage" >
 		</div>
 		
+
 	</body>
 </html>
 

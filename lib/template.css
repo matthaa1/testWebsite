@@ -48,7 +48,6 @@ body {
     color: #80bfff;
 }
 
-
 .nav .active{
     color: #80bfff; 
 }
@@ -60,26 +59,106 @@ body {
     font-size: 35px;
 }
 
-/* Create three equal columns that floats next to each other */
-.column0 {
+/* About Me Elements */
+#AMPcolumn0{
     float: left;
-    width: 15%;
+    width: 22%;
     padding: 20px;
 }
 
-.column1{
+#AMPcolumn1{
     float: left;
-    width: 35%;
+    width: 28%;
 }
 
-.column2{
+#AMPcolumn2{
     float: left; 
     width : 35%; 
 }
 
-.column3{
+#AMPcolumn3{
     float: left;
     width: 10%;
+}
+
+#profilePic{
+    display: right;
+    padding: 20px 0px 0px 50px;
+}
+
+#aboutBlurb{
+    color: black;
+    font-family: arial;
+    font-size: 1.25em;
+    display: inline-block;
+    text-align: left; 
+}
+
+/* Resume Elements */
+
+#profileRes{
+    float: right;
+    text-align: right; 
+}
+
+#RPcolumn0{
+    float: left; 
+    width: 35%;
+    height: 100px; 
+}
+#RPcolumn1{
+    float: left; 
+    width: 20%;
+}
+
+#RPcolumn2{
+    float: left; 
+    width: 25%;
+    padding: 30px 0px 0px 60px; 
+}
+
+#RPcolumn3{
+    float: left; 
+    width: 15%;
+}
+
+.resumeText{
+    font-family: arial; 
+    font-size: 2em; 
+    display: inline-block; 
+    text-align: left; 
+}
+
+.resumeText li{
+    margin-left: 75px; 
+    font-family: arial; 
+}
+
+
+/* Projects Elements */
+
+#PPcolumn0{
+    float: left; 
+    width: 33%; 
+    height: 100px; 
+}
+
+#PPcolumn1{
+    float:left; 
+    width: 33%; 
+}
+
+#PPcolumn2{
+    float: left;
+    width: 33%; 
+    height: 100px;
+}
+
+.projectsText {
+    text-align: left; 
+    font-family: arial; 
+    font-size: 1.2em; 
+
 }
 
 /* Clear floats after the columns */
@@ -96,26 +175,19 @@ body {
     text-align: center;
 }
 
-.profile{
-    display: right;
-    padding: 20px 0px 0px 50px;
+.flexcontainer{
+    display: flex; 
+    align-items: center; 
 }
 
-.aboutBlurb{
-    color: black;
-    font-family: arial;
-    font-size: 1.1em;
-    display: inline-block;
-    text-align: left; 
-    /*position: relative; 
-    width: 50%; 
-    height: 30%; 
-    left: 30%;
-*/
-}
+
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
     .column {
         width: 100%;
+    }
+
+    .flexcontainer{
+        display: block; 
     }
 }

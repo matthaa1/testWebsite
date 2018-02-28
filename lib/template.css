@@ -59,6 +59,7 @@ a:hover{
 }
 
 /*Welcome Elements*/
+
 #WPcolumn0{
     float: left; 
     width: 25%;
@@ -68,6 +69,8 @@ a:hover{
 #WPcolumn1{
     float: left; 
     width: 50%;
+    background: #e6ccff;
+    padding: 10px 5px 10px 5px;
 }
 
 #WPcolumn2{
@@ -87,18 +90,21 @@ a:hover{
 /* About Me Elements */
 #AMPcolumn0{
     float: left;
-    width: 22%;
+    width: 24%;
     padding: 20px;
 }
 
 #AMPcolumn1{
     float: left;
-    width: 28%;
+    width: 30%;
+    background: #e6ccff; 
+    padding-right: 15px; 
+    padding-left: 15px; 
 }
 
 #AMPcolumn2{
     float: left; 
-    width : 35%; 
+    width : 30%; 
 }
 
 #AMPcolumn3{
@@ -133,7 +139,8 @@ a:hover{
 }
 #RPcolumn1{
     float: left; 
-    width: 30%;
+    width: 25%;
+    background: #e6ccff; 
 }
 
 #RPcolumn2{
@@ -157,6 +164,7 @@ a:hover{
 .resumeText li{
     margin-left: 75px; 
     font-family: arial; 
+    font-size: .85em; 
 }
 
 
@@ -171,6 +179,9 @@ a:hover{
 #PPcolumn1{
     float:left; 
     width: 33%; 
+    background: #e6ccff;
+    padding-right: 15px;
+    padding-left: 15px; 
 }
 
 #PPcolumn2{
@@ -197,6 +208,11 @@ a:hover{
 #CPcolumn1{
     float: left; 
     width: 33%; 
+    background: #e6ccff; 
+    padding-right: 15px; 
+    padding-left: 15px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
 }
 
 #CPcolumn2{

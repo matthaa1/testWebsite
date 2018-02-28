@@ -1,5 +1,4 @@
 
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffe6ff;
@@ -51,9 +50,6 @@ a:hover{
     color: #80bfff;
 }
 
-.nav .active{
-    color: #80bfff; 
-}
 /* Style the header */
 .header {
     background-color: #f1f1f1;
@@ -190,7 +186,6 @@ a:hover{
 
 }
 
-
 /* Contact Elements */
 
 #CPcolumn0{
@@ -242,7 +237,7 @@ textarea{
 
 .contactText{
     font-family: arial; 
-    font-size: 1.2em; 
+    font-size: 1.3em; 
 }
 
 #sentMessage{
@@ -263,11 +258,6 @@ textarea{
     text-align: center;
 }
 
-.flexcontainer{
-    display: flex; 
-    align-items: center; 
-}
-
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
@@ -275,7 +265,4 @@ textarea{
         width: 100%;
     }
 
-    .flexcontainer{
-        display: block; 
-    }
 }

@@ -98,7 +98,7 @@ body {
 
 #profileRes{
     float: left;
-    text-align: right; 
+    text-align: left; 
 }
 
 #RPcolumn0{
@@ -108,7 +108,7 @@ body {
 }
 #RPcolumn1{
     float: left; 
-    width: 32%;
+    width: 30%;
 }
 
 #RPcolumn2{

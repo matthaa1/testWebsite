@@ -81,11 +81,12 @@ a:hover{
 .welcomeText{
     font-family: arial; 
     font-size: 1.5em; 
-    text-align: left; 
+    text-align: center; 
 }
 
-.wpimg{
-    padding-left: 10px; 
+#WPimg1{
+    padding-left: 10%; 
+    float: center;
 }
 /* About Me Elements */
 #AMPcolumn0{

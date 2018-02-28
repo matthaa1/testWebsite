@@ -161,6 +161,65 @@ body {
 
 }
 
+
+/* Contact Elements */
+
+#CPcolumn0{
+    float: left; 
+    width: 33%; 
+    height: 100px;    
+}
+
+#CPcolumn1{
+    float: left; 
+    width: 33%; 
+}
+
+#CPcolumn2{
+    float: left; 
+    width: 33%; 
+}
+
+input{
+    width: 100%; 
+    padding: 10px 10px;
+    font-family: arial; 
+    font-size: 1em; 
+    box-sizing: border-box; 
+}
+
+#submit{
+    box-sizing: border-box;
+    border: none; 
+    cursor: pointer; 
+    float: right; 
+    background-color: white; 
+}
+
+textarea{
+    width: 100%; 
+    height: 200px; 
+    resize: none; 
+    box-sizing: border-box;
+    padding: 10px 10px;
+    font-family: arial; 
+    font-size: 1em; 
+}
+
+#contactForm{
+    font-family: arial; 
+    font-size: 1.2em;
+}
+
+.contactText{
+    font-family: arial; 
+    font-size: 1.2em; 
+}
+
+#sentMessage{
+    font-family: arial; 
+    font-weight: 1em; 
+}
 /* Clear floats after the columns */
 .row:after {
     content: "";

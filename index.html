@@ -126,27 +126,43 @@
 
 		<div id = "contactPage" style = "display: none;">
 
+			<div id = "CPcolumn0" class = "column"></div>
+			<div id = "CPcolumn1" class = "collumn">
+				<div id = "contactInfo" class = "contactText">
+					
+					Lorem Ipsum <br>
+					lipsum@email.com<br>
+					555-555-5555<br>
+					<a href = "http://www.linkedin.com">LinkedIn</a> 
+					<a href = "http://www.github.com">GitHub</a> <br><br>
 
+				</div>
 
+				<div id = "contactForm">
+					<form>
 
+						Email *: <br>
+						<input type = "text" name = "email" placeholder="username@email.com" requried class = "formText"><br><br>
+						Name *: <br>
+						<input type = "text" name = "name" placeholder="Johnny Appleseed" required class = "formText"><br><br>
+						Subject: <br>
+						<input type = "text" name = "subject" placeholder="This is an Email" class = "formText"><br><br>
+						Message: <br>
+						<textarea type = "text" name = "message" placeholder="Insert message here" class = "formText"></textarea>
+
+					</form>
+				</div>
+				<div id = "submit">
+					<input type = "submit" value = "Send" onclick = messageSent()>
+				</div>
+				<div id = "sentMessage" style = "display: none;">
+					Thanks! Message Sent!
+				</div>
+			</div>
+			<div id = "CPcolumn2" class = "column"></div>
 
 		</div>
 		
 
 	</body>
 </html>
-
-<!--
-em for italics, strong for bold
-a tag used for hyperlinks
-br tag creates line breaks
-ul for unordered list 
-	inside ul are li (items in list in bullets)
-ol ordered list 
-	each item is numbered rather than bullets
-p is for paragraph
-
-each thing can have a class and id
-class can have multiple things 
-ids are unique to each thing
--->

@@ -1,10 +1,13 @@
-/** {
-    box-sizing: border-box;
-}
-*/
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffe6ff;
+}
+
+/*Navigation Elements*/
+a:hover{
+    cursor: pointer; 
 }
 
 .title {
@@ -59,6 +62,32 @@ body {
     font-size: 35px;
 }
 
+/*Welcome Elements*/
+#WPcolumn0{
+    float: left; 
+    width: 25%;
+    height: 100px;
+}
+
+#WPcolumn1{
+    float: left; 
+    width: 50%;
+}
+
+#WPcolumn2{
+    float: left;
+    width: 25%; 
+}
+
+.welcomeText{
+    font-family: arial; 
+    font-size: 2em; 
+    text-align: center; 
+}
+
+.wpimg{
+    padding-left: 10px; 
+}
 /* About Me Elements */
 #AMPcolumn0{
     float: left;

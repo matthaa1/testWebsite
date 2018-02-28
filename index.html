@@ -5,7 +5,7 @@
 		<title>Lorem Ipsum</title>
 		<link href="lib/template.css" rel = 'stylesheet' type = "text/css" />
 		<script type = "text/javascript" src ="lib/main.js"></script>
-		<h1 class="title"> Lorem Ipsum </h1>
+		<h1 class="title"> <a id = "titleButton" onclick = showNewPage(this.id)>Lorem Ipsum </a></h1>
 	</head>
 	<body>
 
@@ -18,7 +18,26 @@
 			</ul>
 		</h2>
 
-		<div id = "aboutMePage">
+		<div id = "welcomePage">
+			<div id = "WPcolumn0" class = "column"></div>
+			<div id = "WPcolumn1" class = "column">
+				
+				<img id = "WPimg1" src = "assets/animal1.jpg" alt ="My Pet" 
+				width = "300" height = "200" class = "wpimg">
+				<img id = "WPimg2" src = "assets/person2.jpg" alt ="Me" 
+				width = "300" height = "200" class = "wpimg">
+				<img id = "WPimg3" src = "assets/thing1.jpg" alt ="My Pet" 
+				width = "300" height = "200" class = "wpimg">
+
+				<div id = "welcome" class = "welcomeText" >
+					Nam rutrum nec ex quis faucibus. Duis sit amet lacus metus. Donec sollicitudin, sem at feugiat elementum, lacus elit imperdiet lorem, in viverra augue augue eu urna. In eu rutrum mauris, vel commodo lorem. Donec a pharetra dui. Morbi volutpat ut tellus vel placerat. Morbi in nisl nec ex convallis volutpat a id neque.
+				</div>
+
+			</div>
+			<div id = "WPcolumn2" class = "column"></div>
+		</div>
+
+		<div id = "aboutMePage" style = "display: none">
 			<div class = "row"> 
 				<div id = "AMPcolumn0"  class = "column"></div>
 				<div id ="AMPcolumn1" class = "column">
@@ -130,7 +149,7 @@
 			<div id = "CPcolumn1" class = "collumn">
 				<div id = "contactInfo" class = "contactText">
 					
-					Lorem Ipsum <br>
+					Lorem Ipsum  <br>
 					lipsum@email.com<br>
 					555-555-5555<br>
 					<a href = "http://www.linkedin.com">LinkedIn</a> 
@@ -142,9 +161,9 @@
 					<form>
 
 						Email *: <br>
-						<input type = "text" name = "email" placeholder="username@email.com" requried class = "formText"><br><br>
+						<input type = "text" name = "email" placeholder="username@email.com" class = "formText"><br><br>
 						Name *: <br>
-						<input type = "text" name = "name" placeholder="Johnny Appleseed" required class = "formText"><br><br>
+						<input type = "text" name = "name" placeholder="Johnny Appleseed" class = "formText"><br><br>
 						Subject: <br>
 						<input type = "text" name = "subject" placeholder="This is an Email" class = "formText"><br><br>
 						Message: <br>
